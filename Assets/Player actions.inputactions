@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "name": "Player actions",
+    "maps": [
+        {
+            "name": "player shoot",
+            "id": "4f3f85bc-f382-4fa4-88f4-644525733306",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "ddaea4a1-4e5a-4c83-9d7b-d6db2fb3ffc7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9da70c9c-8c90-4a72-961d-b2d9000ed85d",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
