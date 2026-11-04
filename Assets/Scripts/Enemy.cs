@@ -13,6 +13,17 @@ public class EnemyChase : MonoBehaviour
 
     void Start()
     {
-        agent.SetDestination(target.position);
+
     }
+
+
+
+    void Update()
+    {
+        if (target != null)
+        {
+            agent.SetDestination(target.position);
+        }
+    }
+
 }

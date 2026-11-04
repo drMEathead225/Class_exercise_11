@@ -11,5 +11,15 @@ public class EnemyHealth : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+
+        Debug.Log("Owch! Enemy took damage.");
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Debug.Log("Owch! Enemy took damage.");
+        }
     }
 }
