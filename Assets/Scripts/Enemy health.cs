@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -13,6 +14,11 @@ public class EnemyHealth : MonoBehaviour
         }
 
         Debug.Log("Owch! Enemy took damage.");
+    }
+
+    internal void TakeDamage(object damage)
+    {
+        throw new NotImplementedException();
     }
 
     void Update()

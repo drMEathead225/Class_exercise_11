@@ -22,8 +22,7 @@ public class PlayerShoot : MonoBehaviour
         {
             Debug.Log("Hit: " + hit.transform.name);
 
-            EnemyHealth health = hit.transform.gameObject.GetComponent<EnemyHealth>();
-            Debug.Log ("Hit:" + health);
+            EnemyHealth health = hit.transform.GetComponent<EnemyHealth>();
             if (health != null)
             {
                 health.TakeDamage(1);

@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: fc26b61ae942da64db5d3d6e93ee4aab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerCamera: {instanceID: 0}
+  - currentWeapon: {fileID: 11400000, guid: 8fd13cdb20ee0304a9d705d829958a58, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
